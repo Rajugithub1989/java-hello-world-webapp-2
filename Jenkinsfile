@@ -16,7 +16,7 @@ pipeline {
         //     }
         // }
 
-        stage('Checkout java-hello-world-webapp-1') {
+        stage('Checkout java-hello-world-webapp-2') {
             steps {
                 checkout([$class: 'GitSCM',
                     branches: [[name: 'master']],
@@ -47,7 +47,7 @@ pipeline {
 
        stage('Build and Test') {
             steps {
-                dir('java-hello-world-webapp-1') {
+                dir('java-hello-world-webapp-2') {
                     checkout([$class: 'GitSCM',
                               branches: [[name: 'master']],
                               userRemoteConfigs: [[credentialsId: 'Multiple-repos-commits-with-one-pipeline',
