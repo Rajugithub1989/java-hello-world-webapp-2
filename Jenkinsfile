@@ -31,8 +31,8 @@ pipeline {
         // //             branches: [[name: 'master']],
         // //             userRemoteConfigs: [[credentialsId: 'Multiple-repos-commits-with-one-pipeline',
         // //             url: 'https://github.com/Rajugithub1989/java-hello-world-webapp-1.git']]])
-        // /     }
-        //  }
+        // //     }
+        // // }
 
         stage("Checking Triggered Repo"){
             steps {
