@@ -13,6 +13,7 @@ pipeline {
         //             userRemoteConfigs: [[credentialsId: 'Multiple-repos-commits-with-one-pipeline',
         //             url: 'https://github.com/Rajugithub1989/Common-Pipeline.git']]])
         //             load 'common-pipeline.groovy'
+        //
         //     }
         // }
 
