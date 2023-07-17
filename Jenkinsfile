@@ -41,7 +41,7 @@ pipeline {
 
             def rootDir = pwd()
             println("Current Directory: " + rootDir)
-            def externalMethod = load "${rootDir}/Repo 2.groovy"
+            def externalMethod = load "${rootDir}/common-pipeline.groovy"
             externalMethod.firstTest()
             }
         }
